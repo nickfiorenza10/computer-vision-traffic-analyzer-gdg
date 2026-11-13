@@ -1,0 +1,31 @@
+{
+  "camera": "roboflow-vehicles-sample",
+  "note": "Lanes for supervision's sample vehicles.mp4 (3840x2160). Moving down the frame = toward the camera = inbound.",
+  "frame_size": [3840, 2160],
+  "lanes": [
+    {
+      "id": 1,
+      "polygon": [[1422, 800], [1520, 800], [942, 2160], [160, 2160]],
+      "line": [[866, 1400], [1266, 1400]],
+      "directions": {"in": "outbound", "out": "inbound"}
+    },
+    {
+      "id": 2,
+      "polygon": [[1520, 800], [1686, 800], [1740, 2160], [942, 2160]],
+      "line": [[1266, 1400], [1710, 1400]],
+      "directions": {"in": "outbound", "out": "inbound"}
+    },
+    {
+      "id": 3,
+      "polygon": [[1920, 800], [1968, 800], [3636, 2160], [2840, 2160]],
+      "line": [[2326, 1400], [2704, 1400]],
+      "directions": {"in": "outbound", "out": "inbound"}
+    },
+    {
+      "id": 4,
+      "polygon": [[1968, 800], [2166, 800], [3840, 1804], [3840, 2160], [3636, 2160]],
+      "line": [[2704, 1400], [3166, 1400]],
+      "directions": {"in": "outbound", "out": "inbound"}
+    }
+  ]
+}

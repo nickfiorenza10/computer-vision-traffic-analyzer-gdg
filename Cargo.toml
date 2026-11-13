@@ -1,0 +1,37 @@
+[package]
+name = "traffic-api"
+version = "0.1.0"
+edition = "2024"
+# Vercel's Rust builder currently uses rustc 1.92; Cargo resolves dependencies for it.
+rust-version = "1.92"
+description = "Read-only JSON API over the traffic PostgreSQL database, deployed as a Vercel Rust function"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+# One Vercel function serves every /api/* route (see vercel.json rewrites).
+[[bin]]
+name = "traffic"
+path = "api/traffic.rs"
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+opt-level = 3
+
+[dependencies]
+axum = "0.8.9"
+chrono = { version = "0.4.45", default-features = false, features = ["std", "clock", "serde"] }
+regex = "1.13.1"
+reqwest = { version = "0.13.5", default-features = false, features = ["json", "query", "rustls"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+sqlx = { version = "0.8", default-features = false, features = ["postgres", "runtime-tokio", "tls-rustls", "chrono", "derive"] }
+tokio = { version = "1.54.1", features = ["full"] }
+tower = "0.5.3"
+vercel_runtime = { version = "2.4.1", features = ["axum"] }
+
+[dev-dependencies]
+http-body-util = "0.1.5"
+tower = { version = "0.5.3", features = ["util"] }

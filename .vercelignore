@@ -1,0 +1,37 @@
+# Upload only what the deployment builds: the frontend (frontend/) and the Rust
+# function (Cargo.toml, Cargo.lock, src/, api/traffic.rs). Everything else stays local.
+
+# Python pipeline, ingestion, database tooling and data
+/pipeline/
+/ingestion/
+/database/
+/data/
+/worker/
+/.venv/
+/requirements.txt
+*.pt
+*.onnx
+*.mp4
+/runs/
+
+# Rust: tests and the local dev server aren't part of the function
+/tests/
+/examples/
+target/**
+!target/release
+!target/x86_64-unknown-linux-gnu/release/**
+!target/aarch64-unknown-linux-gnu/release/**
+
+# Frontend build output and dependencies are rebuilt on Vercel
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/docs/
+
+# Docs and local files
+/SETUP.md
+/TEAM.md
+.env
+.env.*
+!.env.example
+/.github/

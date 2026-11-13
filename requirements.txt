@@ -1,0 +1,19 @@
+# Python 3.13 — see SETUP.md
+# Install torch/torchvision first (CPU or GPU build), then: pip install -r requirements.txt
+
+# Detection & tracking
+ultralytics==8.4.174
+torch==2.14.1
+torchvision==0.29.1
+opencv-python==5.0.0.93
+lap==0.5.13
+
+# Counting & lanes
+supervision==0.30.9
+
+# Data
+numpy==2.5.3
+pandas==3.0.6
+
+# Model hosting
+huggingface_hub==2.2.0

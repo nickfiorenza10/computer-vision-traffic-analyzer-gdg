@@ -1,0 +1,45 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Videos (too large for GitHub)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model weights (hosted on Hugging Face)
+*.pt
+*.onnx
+
+# Rust build output
+/target/
+
+# Ultralytics output
+runs/
+
+# Pipeline output
+data/output/
+data/live_footage/
+
+# Secrets
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Vercel CLI project link
+.vercel/
+
+.vercel
+.env*
+!.env.example
+
+# Local worker recordings and outputs (worker/run_local.ps1)
+data/worker/

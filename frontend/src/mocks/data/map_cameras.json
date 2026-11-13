@@ -1,0 +1,6100 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.510528,
+          38.481128
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-1",
+        "name": "Hwy 5 at Pocket",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy5atpocket/hwy5atpocket.jpg",
+        "swept": true,
+        "level": "heavy",
+        "vehicles_mean": 13.4,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.51647,
+          38.495353
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-2",
+        "name": "Hwy 5 at Florin",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy5atflorin/hwy5atflorin.jpg",
+        "swept": true,
+        "level": "heavy",
+        "vehicles_mean": 11.2,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.522427,
+          38.509961
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-3",
+        "name": "Hwy 5 at Gloria",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy5atgloria/hwy5atgloria.jpg",
+        "swept": true,
+        "level": "moderate",
+        "vehicles_mean": 6.8,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.52178,
+          38.516437
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-4",
+        "name": "Hwy 5 at 43rd Ave",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy5at43rdave/hwy5at43rdave.jpg",
+        "swept": true,
+        "level": "moderate",
+        "vehicles_mean": 5.9,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.521413,
+          38.526032
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-5",
+        "name": "Hwy 5 at Seamas",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy5atseamas/hwy5atseamas.jpg",
+        "swept": true,
+        "level": "light",
+        "vehicles_mean": 2.1,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.510692,
+          38.540832
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-7",
+        "name": "Hwy 5 at Sutterville",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy5atsutterville/hwy5atsutterville.jpg",
+        "swept": true,
+        "level": "light",
+        "vehicles_mean": 1.8,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.509993,
+          38.568818
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-11",
+        "name": "Hwy 5 at Hwy 50",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy5athwy50/hwy5athwy50.jpg",
+        "swept": true,
+        "level": "night",
+        "vehicles_mean": 0.0,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.507587,
+          38.577828
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-12",
+        "name": "Hwy 5 at P St",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.503231,
+          38.597687
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-14",
+        "name": "Hwy 5 at Richards",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.517136,
+          38.624972
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-16",
+        "name": "Hwy 5 at Hwy 80",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.548377,
+          38.575021
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-17",
+        "name": "Hwy 50 at Harbor_Blvd_Onr_YOL50_WB_1",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.40696,
+          38.554517
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-27",
+        "name": "Hwy 50 at Howe Ave",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.379379,
+          38.558731
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-28",
+        "name": "Hwy 50 at Watt",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.805065,
+          38.727947
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-35",
+        "name": "Hwy 50 at Spring",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.022959,
+          38.850899
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-36",
+        "name": "Hwy 50 at Meyers",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.00461,
+          38.913277
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-37",
+        "name": "Hwy 50 at Hwy 89",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.95724,
+          38.948564
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-38",
+        "name": "Hwy 50 at Ski Run",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.464797,
+          38.578995
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-41",
+        "name": "Hwy 51 at E St",
+        "county": "Sacramento",
+        "route": "SR-51",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.443897,
+          38.597162
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-43",
+        "name": "Hwy 51 at Exposition Blvd",
+        "county": "Sacramento",
+        "route": "SR-51",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.433335,
+          38.604544
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-44",
+        "name": "Hwy 51 at Arden",
+        "county": "Sacramento",
+        "route": "SR-51",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.425964,
+          38.611313
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-45",
+        "name": "Hwy 51 at El Camino Ave",
+        "county": "Sacramento",
+        "route": "SR-51",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.383156,
+          38.639835
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-48",
+        "name": "Hwy 51 at Watt",
+        "county": "Sacramento",
+        "route": "SR-51",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.284268,
+          38.78663
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-49",
+        "name": "Hwy 65 at Pleasant Grove",
+        "county": "Placer",
+        "route": "SR-65",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.581819,
+          38.573915
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-51",
+        "name": "Hwy 80 at West Capitol",
+        "county": "Yolo",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.544722,
+          38.602967
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-52",
+        "name": "Hwy 80 at Bryte Bend",
+        "county": "Sacramento",
+        "route": "I-80",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.50092,
+          38.634014
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-53",
+        "name": "Hwy 80 at Truxel",
+        "county": "Sacramento",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.47791,
+          38.640668
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-54",
+        "name": "Hwy 80 at Northgate",
+        "county": "Sacramento",
+        "route": "I-80",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.457075,
+          38.641702
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-55",
+        "name": "Hwy 80 at Norwood",
+        "county": "Sacramento",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atnorwood/hwy80atnorwood.jpg",
+        "swept": true,
+        "level": "learning",
+        "vehicles_mean": 3.2,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.429317,
+          38.643198
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-56",
+        "name": "Hwy 80 at Raley",
+        "county": "Sacramento",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.367565,
+          38.654136
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-58",
+        "name": "Hwy 80 at 51/80 Split",
+        "county": "Sacramento",
+        "route": "I-80",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.336574,
+          38.682718
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-60",
+        "name": "Hwy 80 at Greenback",
+        "county": "Sacramento",
+        "route": "I-80",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.310319,
+          38.707251
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-61",
+        "name": "Hwy 80 at Antelope",
+        "county": "Sacramento",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.278563,
+          38.735825
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-63",
+        "name": "Hwy 80 at Darling 1",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.993299,
+          39.003707
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-65",
+        "name": "Hwy 80 at Applegate",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.949353,
+          39.095665
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-66",
+        "name": "Hwy 80 at Colfax",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.719639,
+          39.269867
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-69",
+        "name": "Hwy 80 at Whitmore Grade",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.439405,
+          39.31582
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-71",
+        "name": "Hwy 80 at Kingvale WB",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.389657,
+          39.326506
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-72",
+        "name": "Hwy 80 at Soda Springs EB",
+        "county": "Nevada",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.219099,
+          39.323597
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-74",
+        "name": "Hwy 80 at Old Ag Sta",
+        "county": "Nevada",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.207395,
+          39.322884
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-75",
+        "name": "Hwy 80 at Hwy 89",
+        "county": "Nevada",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.16833,
+          39.33791
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-76",
+        "name": "Hwy 80 at 267",
+        "county": "Nevada",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.130051,
+          39.362234
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-77",
+        "name": "Hwy 80 at Truckee Scales",
+        "county": "Nevada",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.023839,
+          39.395554
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-78",
+        "name": "Hwy 80 at Floriston",
+        "county": "Nevada",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.14546,
+          39.16774
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-79",
+        "name": "Hwy 89 at Hwy 28",
+        "county": "Placer",
+        "route": "SR-89",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.177562,
+          39.165377
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-80",
+        "name": "Hwy 89 at Rampart",
+        "county": "Placer",
+        "route": "SR-89",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.199202,
+          39.204709
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-81",
+        "name": "Hwy 89 at Olympic Valley",
+        "county": "Placer",
+        "route": "SR-89",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.361428,
+          38.376488
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-82",
+        "name": "Hwy 99 at Grantline",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.422675,
+          38.474127
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-83",
+        "name": "Hwy 99 at Mack",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "Median",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.46024,
+          38.51022
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-85",
+        "name": "Hwy 99 at 47th Ave",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy99at47thave/hwy99at47thave.jpg",
+        "swept": true,
+        "level": "learning",
+        "vehicles_mean": 2.7,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.47399,
+          38.55203
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-88",
+        "name": "Hwy 99 at 4th Ave",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.103798,
+          39.287024
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-89",
+        "name": "Hwy 267 at Northstar",
+        "county": "Placer",
+        "route": "SR-267",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.306928,
+          38.28277
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-90",
+        "name": "Hwy 99 at Twin Cities",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.490253,
+          38.4386
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-91",
+        "name": "Hwy 5 at Laguna SB",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.489032,
+          38.435527
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-92",
+        "name": "Hwy 5 at Laguna NB",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.406059,
+          38.446887
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-94",
+        "name": "Sheldon_Rd_JNO_SAC99_SB_1",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.529352,
+          38.649567
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-96",
+        "name": "Hwy 5 at Del Paso",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.228026,
+          38.784226
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-102",
+        "name": "Hwy 80 at Rocklin",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.540398,
+          38.691962
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-103",
+        "name": "Hwy 99 at Elkhorn",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.347722,
+          39.339039
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-104",
+        "name": "Hwy 80 at Donner Summit",
+        "county": "Nevada",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.03157,
+          39.237831
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-105",
+        "name": "Hwy 28 at Hwy 267 Kings Beach",
+        "county": "Placer",
+        "route": "SR-28",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.02928,
+          38.81321
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-106",
+        "name": "Hwy 50 at Echo Summit",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.285422,
+          39.33075
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-107",
+        "name": "Hwy 80 at Donner Lake",
+        "county": "Nevada",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.355626,
+          39.334602
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-108",
+        "name": "Hwy 80 at Castle Peak",
+        "county": "Nevada",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.071841,
+          39.26079
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-110",
+        "name": "Hwy 267 at Brockway Summit",
+        "county": "Placer",
+        "route": "SR-267",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.25594,
+          38.765875
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-111",
+        "name": "Hwy 80 at Taylor",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.24929,
+          38.770111
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-112",
+        "name": "Hwy 65 at Hwy 80",
+        "county": "Placer",
+        "route": "SR-65",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.298418,
+          38.796599
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-116",
+        "name": "Hwy 65 at Blue Oaks",
+        "county": "Placer",
+        "route": "SR-65",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.834856,
+          39.725615
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-117",
+        "name": "Hwy 32 at Main St Chico",
+        "county": "Butte",
+        "route": "SR-32",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.340356,
+          38.886197
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-118",
+        "name": "Hwy 65 at Nelson",
+        "county": "Placer",
+        "route": "SR-65",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.368768,
+          38.92624
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-119",
+        "name": "Hwy 65 at Wise",
+        "county": "Placer",
+        "route": "SR-65",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy65atwise/hwy65atwise.jpg",
+        "swept": true,
+        "level": "heavy",
+        "vehicles_mean": 14.1,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.30139,
+          38.863919
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-120",
+        "name": "Hwy 65 at Industrial",
+        "county": "Placer",
+        "route": "SR-65",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.124303,
+          38.811193
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-121",
+        "name": "Hwy 50 at Twin Bridges",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.07592,
+          38.81914
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-122",
+        "name": "Hwy 50 at Sierra EB",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.204003,
+          39.314744
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-124",
+        "name": "Hwy 89 at West River",
+        "county": "Placer",
+        "route": "SR-89",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.307918,
+          38.870571
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-126",
+        "name": "Hwy 65 at Ferrari Ranch",
+        "county": "Placer",
+        "route": "SR-65",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.14045,
+          39.15128
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-128",
+        "name": "Hwy 5 at Williams NB",
+        "county": "Colusa",
+        "route": "I-5",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15929,
+          39.17793
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-129",
+        "name": "Hwy 5 at Williams SB",
+        "county": "Colusa",
+        "route": "I-5",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.46752,
+          38.523998
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-131",
+        "name": "Hwy 99 at Fruitridge",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.51749,
+          38.53381
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-132",
+        "name": "Hwy 5 at 25th",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.51238,
+          38.61488
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-133",
+        "name": "Hwy 5 at W El Camino",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.38327,
+          38.64602
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-134",
+        "name": "Hwy 80 at Watt",
+        "county": "Sacramento",
+        "route": "I-80",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.29014,
+          38.72491
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-135",
+        "name": "Hwy 80 at Riverside",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.27008,
+          38.74418
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-136",
+        "name": "Hwy 80 at Douglas",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.19489,
+          39.18724
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-137",
+        "name": "Hwy 89 at Alpine Meadows",
+        "county": "Placer",
+        "route": "SR-89",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.49646,
+          38.46643
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-138",
+        "name": "Hwy 5 at Cosumnes",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.484446,
+          38.408888
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-139",
+        "name": "Hwy 5 at Elk Grove",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.58977,
+          38.67148
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-141",
+        "name": "Hwy 5 at Airport",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.38221,
+          38.97877
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-142",
+        "name": "Hwy 65 - Riosa",
+        "county": "Placer",
+        "route": "SR-65",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.16323,
+          39.33429
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-143",
+        "name": "Hwy 267 at Truckee Bypass",
+        "county": "Nevada",
+        "route": "SR-267",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.10347,
+          39.19375
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-144",
+        "name": "Hwy 28 at Dollar",
+        "county": "Placer",
+        "route": "SR-28",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.07222,
+          38.65268
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-145",
+        "name": "Hwy 50 at El Dorado ED50 WB 1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50ateldoradoed50wb1/hwy50ateldoradoed50wb1.jpg",
+        "swept": true,
+        "level": "moderate",
+        "vehicles_mean": 7.4,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.54006,
+          38.74828
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-150",
+        "name": "Hwy 99 at Riego NB",
+        "county": "Sutter",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.63447,
+          39.11258
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-151",
+        "name": "Hwy 99 at Lincoln",
+        "county": "Sutter",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.63484,
+          39.13255
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-152",
+        "name": "Hwy 99 at Bridge",
+        "county": "Sutter",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.63486,
+          39.14213
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-153",
+        "name": "Hwy 99 at Route 20",
+        "county": "Sutter",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.74011,
+          39.6622
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-154",
+        "name": "Hwy 99 at Neal",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.46668,
+          38.57546
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-155",
+        "name": "Hwy 51 at H St",
+        "county": "Sacramento",
+        "route": "SR-51",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.47444,
+          38.53909
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-156",
+        "name": "Hwy 99 at 14th Ave",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.46579,
+          38.51943
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-157",
+        "name": "Hwy 99 at Martin Luther King",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.41135,
+          38.45757
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-158",
+        "name": "Hwy 99 at Calvine",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.55276,
+          38.59053
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-160",
+        "name": "Hwy 80 at Reed",
+        "county": "Yolo",
+        "route": "I-80",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1498,
+          39.164
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-161",
+        "name": "Hwy 89 at Fairway Dr",
+        "county": "Placer",
+        "route": "SR-89",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1447,
+          39.1617
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-162",
+        "name": "Hwy 89 at Granlibakken",
+        "county": "Placer",
+        "route": "SR-89",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.98216,
+          38.52104
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-163",
+        "name": "Hwy 128 at Main St (Winters)",
+        "county": "Yolo",
+        "route": "SR-128",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.67937,
+          38.15654
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-179",
+        "name": "Hwy 12 at Rio Vista Bridge East",
+        "county": "Sacramento",
+        "route": "SR-12",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.813169,
+          38.695034
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-182",
+        "name": "Hwy 49 at Pleasant Valley",
+        "county": "El Dorado",
+        "route": "SR-49",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.732872,
+          38.07795
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-183",
+        "name": "Hwy 160 at Sherman Island Rd",
+        "county": "Sacramento",
+        "route": "SR-160",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.807938,
+          38.728448
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-184",
+        "name": "Hwy 50 at Canal St",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.79934,
+          38.73059
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-185",
+        "name": "Hwy 50 at Bedford",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.05564,
+          38.65829
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-187",
+        "name": "Hwy 50 at Silva_Valley_ED50_WB",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.12443,
+          39.36354
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-188",
+        "name": "Hwy 80 at Truckee Scales WB",
+        "county": "Nevada",
+        "route": "I-80",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.83915,
+          38.71102
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-189",
+        "name": "Hwy 50 at Missouri Flat 1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atmissouriflat1/hwy50atmissouriflat1.jpg",
+        "swept": true,
+        "level": "light",
+        "vehicles_mean": 2.9,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.839178,
+          38.711022
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-190",
+        "name": "Hwy 50 at Missouri Flat 2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.93578,
+          38.66352
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-192",
+        "name": "Hwy 50 at Ponderosa 2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.93579,
+          38.66352
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-193",
+        "name": "Hwy 50 at Ponderosa 1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.785848,
+          39.701535
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-194",
+        "name": "Hwy 99 at Southgate 1",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.785848,
+          39.701535
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-195",
+        "name": "Hwy 99 at Southgate 2",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.800321,
+          39.715094
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-196",
+        "name": "Hwy 99 at Skyway 1",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.800321,
+          39.715094
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-197",
+        "name": "Hwy 99 at Skyway 2",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.792755,
+          39.707638
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-198",
+        "name": "Skyway_BUT99_NB_2",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.809163,
+          39.726408
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-199",
+        "name": "East_20th_BUT99_NB_1",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.809163,
+          39.726408
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-200",
+        "name": "East_20th_BUT99_NB_2",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.792755,
+          39.707638
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-201",
+        "name": "Skyway_BUT99_NB_1",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.820189,
+          39.737174
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-202",
+        "name": "Hwy 99 at Hwy 32 1",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.820189,
+          39.737174
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-203",
+        "name": "Hwy 99 at Hwy 32 2",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.034079,
+          38.655366
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-204",
+        "name": "Bass_Lake_ED50_WB",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.67619,
+          38.734511
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-205",
+        "name": "Snow_ED50_EB_1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.67619,
+          38.734511
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-206",
+        "name": "Snow_ED50_EB_2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.591929,
+          38.756014
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-207",
+        "name": "Sly_Park_ED50_EB_1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.591929,
+          38.756014
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-208",
+        "name": "Sly_Park_ED50_EB_2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.011835,
+          38.858153
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-209",
+        "name": "Pioneer_Trail_ED50_EB_1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.816119,
+          38.730391
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-210",
+        "name": "Placerville_Dr_JEO_ED50_WB_1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.816119,
+          38.730391
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-211",
+        "name": "Placerville_Dr_JEO_ED50_WB_2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/placervilledrjeoed50wb2/placervilledrjeoed50wb2.jpg",
+        "swept": true,
+        "level": "heavy",
+        "vehicles_mean": 15.6,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.01187,
+          38.858323
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-212",
+        "name": "Pioneer_Trail_ED50_EB_2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.83399,
+          38.721336
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-213",
+        "name": "Forni_ED50_WB_1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.83399,
+          38.721336
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-214",
+        "name": "Forni_ED50_WB_2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.347407,
+          38.362331
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-215",
+        "name": "Hwy 99 at Eschinger",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.855315,
+          39.759699
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-217",
+        "name": "Hwy 99 at East_Ave_BUT99_SB_1",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.855315,
+          39.759699
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-218",
+        "name": "Hwy 99 at East_Ave_BUT99_SB_2",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.890929,
+          39.789467
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-219",
+        "name": "Hwy 99 at Garner Lane 1",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.890929,
+          39.789467
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-220",
+        "name": "Hwy 99 at Garner Lane 2",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.446648,
+          38.768721
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-221",
+        "name": "Hwy 50 at Ice House",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.47105,
+          38.77383
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-222",
+        "name": "Hwy 50 at Riverton Sandhouse",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.884516,
+          38.695782
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-223",
+        "name": "Hwy 50 at Greenstone 1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.884516,
+          38.695782
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-224",
+        "name": "Hwy 50 at Greenstone 2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.969424,
+          38.659676
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-225",
+        "name": "Hwy 50 at Cameron_Park_ED50_WB_1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.969424,
+          38.659676
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-226",
+        "name": "Hwy 50 at Cameron_Park_ED50_WB_2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.0721,
+          38.6527
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-228",
+        "name": "Hwy 50 at El Dorado ED50 WB 2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.114145,
+          38.643686
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-229",
+        "name": "Hwy 50 at E_Bidwell_St_SAC50_WB_1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.114145,
+          38.643676
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-230",
+        "name": "Hwy 50 at E_Bidwell_St_SAC50_WB_2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.155724,
+          38.642402
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-231",
+        "name": "Hwy 50 at Prairie City",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.196928,
+          38.640212
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-232",
+        "name": "Hwy 50 at Folsom_Blvd_SAC50_WB_1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.216651,
+          38.631541
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-233",
+        "name": "Hwy 50 at Hazel OC JEO WB 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.216611,
+          38.631531
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-234",
+        "name": "Hwy 50 at Hazel OC JEO WB 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50athazelocjeowb2/hwy50athazelocjeowb2.jpg",
+        "swept": true,
+        "level": "moderate",
+        "vehicles_mean": 8.1,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.072035,
+          38.652741
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-235",
+        "name": "Hwy 50 at El Dorado ED50 WB 3",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.04284,
+          39.229122
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-236",
+        "name": "Hwy 20 at Dorsey Dr EB",
+        "county": "Nevada",
+        "route": "SR-20",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.612626,
+          39.376036
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-237",
+        "name": "Hwy 70 WO Cox Ln",
+        "county": "Butte",
+        "route": "SR-70",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.881511,
+          39.780785
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-238",
+        "name": "Hwy 99 at E Eaton Rd 1",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.881511,
+          39.780785
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-239",
+        "name": "Hwy 99 at E Eaton Rd 2",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1968,
+          38.64
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-240",
+        "name": "Hwy 50 at Folsom_Blvd_SAC50_WB_2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.540407,
+          38.671014
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-241",
+        "name": "Hwy 99 at Hwy 5 1",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.540356,
+          38.671022
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-242",
+        "name": "Hwy 99 at Hwy 5 2",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.372681,
+          38.64886
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-244",
+        "name": "Hwy 80 at JCT244 EB",
+        "county": "Sacramento",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.525241,
+          38.577039
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-245",
+        "name": "Hwy 50 at Jefferson Blvd 1",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.525241,
+          38.577039
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-246",
+        "name": "Hwy 50 at Jefferson Blvd 2",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.525241,
+          38.577039
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-247",
+        "name": "Hwy 50 at Jefferson Blvd 3",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.52015,
+          38.574913
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-248",
+        "name": "Hwy 50 at South River Rd 1",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.52015,
+          38.574913
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-250",
+        "name": "Hwy 50 at South River Rd 2",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.372667,
+          38.559338
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-251",
+        "name": "Hwy 50 at Manlove POC 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.372667,
+          38.559338
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-252",
+        "name": "Hwy 50 at Manlove POC 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.360261,
+          38.561003
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-253",
+        "name": "Hwy 50 at Mayhew Rd WO 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.360261,
+          38.561003
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-254",
+        "name": "Hwy 50 at Mayhew Rd WO 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.360261,
+          38.561003
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-255",
+        "name": "Hwy 50 at Mayhew Rd WO 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.308156,
+          38.578006
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-256",
+        "name": "Hwy 50 at Mather Field EB 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.308156,
+          38.578006
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-257",
+        "name": "Hwy 50 at Mather Field EB 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atmatherfieldeb2/hwy50atmatherfieldeb2.jpg",
+        "swept": true,
+        "level": "moderate",
+        "vehicles_mean": 6.2,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.308156,
+          38.578006
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-258",
+        "name": "Hwy 50 at Mather Field EB 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.294982,
+          38.586703
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-259",
+        "name": "Hwy 50 at White Rock POC EO 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.294982,
+          38.586703
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-260",
+        "name": "Hwy 50 at White Rock POC EO 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.294982,
+          38.586703
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-261",
+        "name": "Hwy 50 at White Rock POC EO 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.28773,
+          38.590256
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-262",
+        "name": "Hwy 50 at Zinfandel Dr EB 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.28773,
+          38.590256
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-263",
+        "name": "Hwy 50 at Zinfandel Dr EB 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.28773,
+          38.590256
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-264",
+        "name": "Hwy 50 at Zinfandel Dr EB 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.277972,
+          38.597857
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-265",
+        "name": "Hwy 50 at Zinfandel Dr EO EB 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.277972,
+          38.597857
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-266",
+        "name": "Hwy 50 at Zinfandel Dr EO EB 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.277972,
+          38.597857
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-267",
+        "name": "Hwy 50 at Zinfandel Dr EO EB 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.270927,
+          38.609259
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-268",
+        "name": "Hwy 50 at Sunrise Blvd OC JWO WB 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.270927,
+          38.609259
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-269",
+        "name": "Hwy 50 at Sunrise Blvd OC JWO WB 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.34779,
+          38.561966
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-270",
+        "name": "Hwy 50 at Mayhew Rd 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.34779,
+          38.561966
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-271",
+        "name": "Hwy 50 at Mayhew Rd 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.253438,
+          38.615681
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-272",
+        "name": "Hwy 50 at Sunrise Blvd EO WB 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.253438,
+          38.615681
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-273",
+        "name": "Hwy 50 at Sunrise Blvd EO WB 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.33639,
+          38.565796
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-274",
+        "name": "Hwy 50 at Bradshaw Rd 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.33639,
+          38.565796
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-275",
+        "name": "Hwy 50 at Bradshaw Rd 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.33639,
+          38.565796
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-276",
+        "name": "Hwy 50 at Bradshaw Rd 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.326692,
+          38.570817
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-277",
+        "name": "Hwy 50 at Bradshaw Rd EO 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.179228,
+          38.642315
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-278",
+        "name": "Hwy 50 at Prairie City Rd WO WB 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atprairiecityrdwowb3/hwy50atprairiecityrdwowb3.jpg",
+        "swept": true,
+        "level": "light",
+        "vehicles_mean": 3.1,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.326692,
+          38.570817
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-279",
+        "name": "Hwy 50 at Bradshaw Rd EO 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.326692,
+          38.570817
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-280",
+        "name": "Hwy 50 at Bradshaw Rd EO 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.319468,
+          38.573543
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-281",
+        "name": "Hwy 50 at Routier Rd JWO 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.319468,
+          38.573543
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-282",
+        "name": "Hwy 50 at Routier Rd JWO 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.179228,
+          38.642315
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-283",
+        "name": "Hwy 50 at Prairie City Rd WO WB 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.316762,
+          38.575148
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-284",
+        "name": "Hwy 50 at Routier Rd JEO 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.319468,
+          38.573543
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-285",
+        "name": "Hwy 50 at Routier Rd JWO 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.316762,
+          38.575148
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-286",
+        "name": "Hwy 50 at Routier Rd JEO 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.316762,
+          38.575148
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-287",
+        "name": "Hwy 50 at Routier Rd JEO 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.225728,
+          38.626484
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-288",
+        "name": "Hwy 50 at Hazel Ave OC WO WB 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.225828,
+          38.626584
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-289",
+        "name": "Hwy 50 at Hazel Ave OC WO WB 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.225928,
+          38.626684
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-290",
+        "name": "Hwy 50 at Hazel Ave OC WO WB 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.34779,
+          38.561966
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-291",
+        "name": "Hwy 50 at Mayhew Rd 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.372667,
+          38.559338
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-292",
+        "name": "Hwy 50 at Manlove POC 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.43958,
+          38.599961
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-293",
+        "name": "Hwy 51 at Hwy 160 1",
+        "county": "Sacramento",
+        "route": "SR-51",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.43958,
+          38.599961
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-294",
+        "name": "Hwy 51 at Hwy 160 2",
+        "county": "Sacramento",
+        "route": "SR-51",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.43958,
+          38.599961
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-295",
+        "name": "Hwy 51 at Hwy 160 3",
+        "county": "Sacramento",
+        "route": "SR-51",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.514,
+          38.55934
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-296",
+        "name": "Hwy 5 at Vallejo",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.511,
+          38.55161
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-297",
+        "name": "Hwy 5 at 6th Ave",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.179228,
+          38.642315
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-298",
+        "name": "Hwy 50 at Prairie City Rd WO WB 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.270927,
+          38.609259
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-299",
+        "name": "Hwy 50 at Sunrise Blvd OC JWO WB 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy50atsunriseblvdocjwowb3/hwy50atsunriseblvdocjwowb3.jpg",
+        "swept": true,
+        "level": "light",
+        "vehicles_mean": 2.4,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.253438,
+          38.615681
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-300",
+        "name": "Hwy 50 at Sunrise Blvd EO WB 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.688389,
+          39.494028
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-301",
+        "name": "Hwy 99 at Hwy 162",
+        "county": "Butte",
+        "route": "SR-99",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.204833,
+          39.205111
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-302",
+        "name": "Hwy 20 at Pleasant Valley Rd",
+        "county": "Nevada",
+        "route": "SR-20",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.334628,
+          38.34234
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-303",
+        "name": "Hwy 99 at Dillard",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.015718,
+          39.457219
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-304",
+        "name": "Hwy 162 at JCT162 and 45",
+        "county": "Glenn",
+        "route": "SR-162",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.597602,
+          39.264525
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-305",
+        "name": "Hwy 70 at Ramirez",
+        "county": "Yuba",
+        "route": "SR-70",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.594635,
+          39.189445
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-306",
+        "name": "Hwy 70 at Saddleback",
+        "county": "Yuba",
+        "route": "SR-70",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.210437,
+          38.786496
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-307",
+        "name": "Hwy 50 at Wrights Lake 1",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.44462,
+          38.495338
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-310",
+        "name": "Hwy 99 at Florin_Rd_JSO_SAC99_NB_1",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.44462,
+          38.495338
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-311",
+        "name": "Hwy 99 at Florin_Rd_JSO_SAC99_NB_2",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.04324,
+          39.229601
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-312",
+        "name": "Hwy 20 at Dorsey Dr WB",
+        "county": "Nevada",
+        "route": "SR-20",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.526925,
+          38.643607
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-313",
+        "name": "Hwy 5 At Arena Blvd 1",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.526925,
+          38.643607
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-314",
+        "name": "Hwy 5 At Arena Blvd 2",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.564804,
+          38.67137
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-315",
+        "name": "Hwy 5 At Metro Air Pkwy 1",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.564804,
+          38.67137
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-316",
+        "name": "Hwy 5 At Metro Air Pkwy 2",
+        "county": "Alameda",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.082068,
+          38.92063
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-317",
+        "name": "Hwy 49 at Edgewood",
+        "county": "Placer",
+        "route": "SR-49",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.101234,
+          38.95686
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-318",
+        "name": "Hwy 49 at Dry Creek Rd",
+        "county": "Placer",
+        "route": "SR-49",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.471149,
+          38.55953
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-319",
+        "name": "Hwy 50 at JCT 51/99 1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.471334,
+          38.559476
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-320",
+        "name": "Hwy 50 at JCT 51/99 2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.47147,
+          38.559515
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-321",
+        "name": "Hwy 50 at JCT 51/99 3",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.278563,
+          38.735825
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-322",
+        "name": "Hwy 80 at Darling 2",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": "https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy80atdarling2/hwy80atdarling2.jpg",
+        "swept": true,
+        "level": "moderate",
+        "vehicles_mean": 5.5,
+        "swept_at": "2026-10-29T09:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.278563,
+          38.735825
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-323",
+        "name": "Hwy 80 at Darling 3",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.211154,
+          38.786296
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-327",
+        "name": "Hwy 50 at Wrights Lake 2",
+        "county": "El Dorado",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.639552,
+          38.563052
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-328",
+        "name": "Hwy 80 at Chiles_Rd_JEO_EB_1",
+        "county": "Yolo",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.639552,
+          38.563052
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-329",
+        "name": "Hwy 80 at Chiles_Rd_JEO_EB_2",
+        "county": "Yolo",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.580165,
+          38.573652
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-332",
+        "name": "Hwy 80 At Enterprise EB 2",
+        "county": "Yolo",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.580165,
+          38.573652
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-333",
+        "name": "Hwy 80 At Enterprise EB 3",
+        "county": "Yolo",
+        "route": "I-80",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.449498,
+          39.313528
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-339",
+        "name": "Hwy 80 at Kingvale EB 2",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.449498,
+          39.313528
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-340",
+        "name": "Hwy 80 at Kingvale EB 1",
+        "county": "Placer",
+        "route": "I-80",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.563372,
+          38.575748
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-341",
+        "name": "JCT80_YOL50_WB_1",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.141009,
+          39.746875
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-342",
+        "name": "Hwy 32 at Rd P Orland",
+        "county": "Glenn",
+        "route": "SR-32",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.406059,
+          38.446887
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-343",
+        "name": "Sheldon_Rd_JNO_SAC99_SB_2",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "South",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.406059,
+          38.446887
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-344",
+        "name": "Sheldon_Rd_JNO_SAC99_SB_3",
+        "county": "Sacramento",
+        "route": "SR-99",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.478078,
+          38.560149
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-345",
+        "name": "26th_St_SAC50_WB",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.39853,
+          38.55593
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-346",
+        "name": "Howe_Av_JEO_SAC50_EB",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.38682,
+          38.55821
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-347",
+        "name": "Watt_Av_JWO_SAC50_WB",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.51112,
+          38.56753
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-348",
+        "name": "Q_St_Ofr_SAC5_NB_1",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.51112,
+          38.56753
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-349",
+        "name": "Q_St_Ofr_SAC5_NB_2",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.46074,
+          38.56111
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-350",
+        "name": "Stockton_Bl_JEO_SAC50_WB",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.494694,
+          38.564444
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-352",
+        "name": "Hwy 50 at 15th St",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.52697,
+          38.57688
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-353",
+        "name": "Hwy 50 at Jefferson Blvd JWO EB1",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "East",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.5088,
+          38.56925
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-355",
+        "name": "Hwy 5 NB at W St slip on ramp",
+        "county": "Sacramento",
+        "route": "I-5",
+        "direction": "North",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.482827,
+          39.214632
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-356",
+        "name": "Hwy 20 at Kibbe",
+        "county": "Yuba",
+        "route": "SR-20",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.437174,
+          38.553858
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-357",
+        "name": "Hwy 50 at 59th_St_SAC50_WB_1",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.437174,
+          38.553858
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-358",
+        "name": "Hwy 50 at 59th_St_SAC50_WB_2",
+        "county": "Sacramento",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.563372,
+          38.575748
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-359",
+        "name": "JCT80_YOL50_WB_2",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.547923,
+          38.575417
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-361",
+        "name": "Hwy 50 at Harbor_Blvd_Onr_YOL50_WB_2",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "West",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.547923,
+          38.575417
+        ]
+      },
+      "properties": {
+        "camera_id": "caltrans-D3-362",
+        "name": "Hwy 50 at Harbor_Blvd_Onr_YOL50_WB_3",
+        "county": "Yolo",
+        "route": "US-50",
+        "direction": "",
+        "has_stream": true,
+        "image_url": null,
+        "swept": false,
+        "level": null,
+        "vehicles_mean": null,
+        "swept_at": null
+      }
+    }
+  ]
+}

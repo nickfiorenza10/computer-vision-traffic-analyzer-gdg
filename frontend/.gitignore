@@ -1,0 +1,8 @@
+# Node build output
+node_modules/
+dist/
+coverage/
+*.local
+
+# Vite
+.vite/

@@ -1,0 +1,34 @@
+name: Database
+
+on:
+  push:
+    paths: ['database/**', 'pipeline/track_count.py', 'data/sample_events.csv', '.github/workflows/database.yml']
+  pull_request:
+    paths: ['database/**', 'pipeline/track_count.py', 'data/sample_events.csv', '.github/workflows/database.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: traffic
+          POSTGRES_PASSWORD: traffic_test
+          POSTGRES_DB: traffic_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U traffic -d traffic_test"
+          --health-interval 5s --health-timeout 5s --health-retries 12
+    env:
+      TEST_DATABASE_URL: postgresql://traffic:traffic_test@localhost:5432/traffic_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r database/requirements.txt
+      - run: python -m unittest discover -s database/tests -v

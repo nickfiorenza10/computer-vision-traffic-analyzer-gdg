@@ -1,0 +1,4 @@
+# Worker-only packages. The pipeline and database requirements are installed from
+# their own files; this one adds the HTTP layer on top.
+fastapi==0.162.0
+uvicorn[standard]==0.54.0

@@ -1,0 +1,1010 @@
+/* The redesign's tokens. Everything below uses these; components never hard-code a hex. */
+:root {
+  --bg: #0b0c0e;
+  --raised: #0e1013;
+  --panel: #101215;
+  --line: #1e2126;
+  --control: #23262b;
+  --hover: #3a3f47;
+  --text: #f2f3f5;
+  --text2: #c9cdd3;
+  --muted: #a8aeb6;
+  --faint: #8a9099;
+  --accent: #3ddc97;
+
+  --heavy: #ff6369;
+  --moderate: #ffb224;
+  --light: #2f8f63;
+  --learning: #6e6ab0;
+  --night: #343a46;
+  --nodata: #191c21;
+
+  --radius-card: 16px;
+  --radius-map: 18px;
+  --radius-control: 12px;
+  --radius-small: 10px;
+}
+
+.site {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Geist, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.site a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site a:hover {
+  color: var(--accent);
+}
+
+/* ---- header ---- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: rgba(11, 12, 14, 0.92);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(8px);
+}
+
+.site-header nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 28px;
+}
+
+.brandlink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+
+.navlinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  font-size: 14px;
+  flex: 1 1 auto;
+}
+
+.navlinks a[aria-current='page'] {
+  color: var(--text);
+}
+
+.navlinks a:not([aria-current='page']) {
+  color: var(--muted);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.worker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.dot-on {
+  background: var(--accent);
+}
+
+.dot-off {
+  background: var(--heavy);
+}
+
+.segmented {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--control);
+  border-radius: var(--radius-control);
+}
+
+.segmented a,
+.segmented button {
+  white-space: nowrap;
+  border: 0;
+  background: transparent;
+  color: var(--text2);
+  font: inherit;
+  font-size: 14px;
+  padding: 7px 14px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.segmented [aria-current='page'],
+.segmented [aria-pressed='true'] {
+  background: var(--text);
+  color: var(--bg);
+  font-weight: 600;
+}
+
+/* The mockup's active segment is #F2F3F5 on #0B0C0E whatever the surrounding tone, so the
+   mode toggle on the map card must not pick up a tint from its container. */
+.map-overlay-top .segmented [aria-pressed='true'],
+.site-header .segmented [aria-current='page'] {
+  background: #f2f3f5;
+  color: #0b0c0e;
+}
+
+/* ---- page ---- */
+.page {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 72px 24px 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 720px;
+}
+
+.pill {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #2a2e35;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 13px;
+  color: var(--text2);
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(34px, 7vw, 56px);
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.caret {
+  display: inline-block;
+  width: 3px;
+  height: 0.9em;
+  background: var(--accent);
+  margin-left: 6px;
+  vertical-align: -0.08em;
+}
+
+.hero p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+/* ---- the map card ---- */
+.map-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-map);
+  background: var(--panel);
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 680px;
+}
+
+.map-side {
+  flex: 999 1 0;
+  flex-basis: 560px;
+  min-width: 0;
+  position: relative;
+  min-height: 680px;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 40%, #15181c 0%, var(--raised) 70%);
+  transition: flex-basis 0.55s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.state-map {
+  position: absolute;
+  inset: 0;
+}
+
+.map-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--faint);
+  font-size: 14px;
+}
+
+.map-overlay-top {
+  position: absolute;
+  z-index: 3;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.map-overlay-top .segmented {
+  background: var(--bg);
+}
+
+.search {
+  flex: 1 1 240px;
+  max-width: 380px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg);
+  border: 1px solid var(--control);
+  border-radius: var(--radius-control);
+  padding: 0 14px;
+  height: 42px;
+}
+
+.search input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.search input::placeholder {
+  color: var(--faint);
+}
+
+.badge {
+  margin-left: auto;
+  background: var(--bg);
+  border: 1px solid var(--control);
+  border-radius: var(--radius-small);
+  padding: 9px 12px;
+  font-size: 13px;
+  color: var(--text2);
+  font-family: 'Geist Mono', ui-monospace, monospace;
+}
+
+.map-zoom {
+  position: absolute;
+  z-index: 3;
+  right: 16px;
+  top: 76px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.map-zoom button {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-small);
+  border: 1px solid var(--control);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.map-zoom button:hover {
+  border-color: var(--hover);
+}
+
+.map-attribution {
+  position: absolute;
+  z-index: 3;
+  left: 16px;
+  bottom: 14px;
+  font-size: 11px;
+  color: var(--faint);
+  font-family: 'Geist Mono', ui-monospace, monospace;
+}
+
+.match-list {
+  position: absolute;
+  z-index: 4;
+  top: 66px;
+  left: 16px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--bg);
+  border: 1px solid var(--control);
+  border-radius: var(--radius-control);
+  min-width: 220px;
+}
+
+.match-list button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 0;
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.match-list button:hover {
+  background: var(--raised);
+}
+
+/* ---- county panel ---- */
+.county-panel {
+  flex: 0 0 380px;
+  border-left: 1px solid var(--line);
+  background: var(--raised);
+  overflow: auto;
+  transition: flex-basis 0.55s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* A picked camera: the map slides left to a strip and the panel opens to most of the card,
+   the camera on the left of it and the county column beside. */
+.map-card:has(.county-panel.camera-open) .map-side {
+  flex-basis: 300px;
+}
+
+/* The strip is too narrow for the mode toggle, search and badge; zoom buttons stay. */
+.map-card:has(.county-panel.camera-open) .map-overlay-top,
+.map-card:has(.county-panel.camera-open) .match-list {
+  display: none;
+}
+
+.county-panel.camera-open {
+  flex-basis: min(66%, 860px);
+  max-height: 680px;
+}
+
+.panel-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(250px, 1fr);
+  align-items: start;
+  min-height: 100%;
+  animation: panel-split-in 0.45s ease 0.15s both;
+}
+
+.panel-split > .panel-camera {
+  padding: 22px;
+  border-right: 1px solid var(--line);
+  min-height: 100%;
+}
+
+.panel-camera .camera-panel {
+  position: static;
+  width: auto;
+  max-height: none;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  padding: 0;
+}
+
+.panel-camera .sweep-still,
+.panel-camera .live-frame {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@keyframes panel-split-in {
+  from {
+    opacity: 0;
+    transform: translateX(14px);
+  }
+}
+
+.panel-inner {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.panel-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.panel-head h2 {
+  margin: 4px 0 0;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.panel-head > div {
+  flex: 1;
+}
+
+.kicker {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--faint);
+  font-family: 'Geist Mono', ui-monospace, monospace;
+}
+
+.icon-button {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-small);
+  border: 1px solid var(--control);
+  background: transparent;
+  color: var(--text2);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.level-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  border-radius: var(--radius-control);
+  background: var(--bg);
+  border: 1px solid var(--line);
+}
+
+.swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  flex: none;
+}
+
+.swatch-lg {
+  width: 14px;
+  height: 14px;
+}
+
+.swatch-ring {
+  box-shadow: inset 0 0 0 1px var(--hover);
+}
+
+.level-word {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.level-reason {
+  display: block;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.cam-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cam-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius-small);
+  background: var(--bg);
+  border: 1px solid var(--line);
+}
+
+.route-chip {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--text2);
+  background: #1a1d22;
+  border-radius: 6px;
+  padding: 3px 7px;
+  white-space: nowrap;
+}
+
+.cam-row {
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.cam-row:disabled {
+  cursor: default;
+}
+
+.cam-action {
+  font-size: 13px;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.cam-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.panel-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ghost-button {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+  padding: 8px 12px;
+  border-radius: var(--radius-small);
+  cursor: pointer;
+}
+
+.ghost-button:hover:not(:disabled) {
+  border-color: var(--hover);
+}
+
+.ghost-button:disabled {
+  color: var(--faint);
+  cursor: not-allowed;
+}
+
+/* ---- legend, tiles, regions ---- */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  font-size: 14px;
+  color: var(--text2);
+}
+
+.legend > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  margin-top: 24px;
+}
+
+.tiles > div {
+  background: var(--bg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tile-number {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.tile-label {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.regions-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 56px;
+}
+
+.regions-head .kicker {
+  letter-spacing: 0.32em;
+}
+
+.regions-head h2 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.region-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--raised);
+}
+
+.card:hover {
+  border-color: var(--hover);
+  background: #121418;
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-name {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.card-tag {
+  margin-left: auto;
+  font-size: 11px;
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  color: var(--faint);
+}
+
+.card p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.link {
+  align-self: flex-start;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.muted {
+  color: var(--faint);
+  font-size: 13px;
+}
+
+.note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* ---- footer ---- */
+.site-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 48px;
+}
+
+.site-footer > div {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--faint);
+}
+
+/* ---- History: the same tokens over the existing markup ---- */
+.history {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 24px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.history h1 {
+  font-size: clamp(26px, 4vw, 34px);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.history .sub {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.history-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  background: var(--raised);
+}
+
+.history-bar label,
+.history-bar .field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--faint);
+  font-family: 'Geist Mono', ui-monospace, monospace;
+}
+
+.history-bar select,
+.history-bar input {
+  background: var(--bg);
+  border: 1px solid var(--control);
+  border-radius: var(--radius-small);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: none;
+  font-family: Geist, system-ui, sans-serif;
+  padding: 9px 10px;
+}
+
+.history .grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.history section,
+.history .card,
+.history .chart-card,
+.history .kpi,
+.history table {
+  background: var(--raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.history .chart-card,
+.history section {
+  padding: 18px;
+}
+
+.history .kpi {
+  padding: 16px;
+}
+
+.history h3,
+.history .chart-title {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--faint);
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-weight: 500;
+}
+
+.history table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+.history th,
+.history td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+.history th {
+  color: var(--faint);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ---- prose pages ---- */
+.prose h1 {
+  margin: 0 0 8px;
+  font-size: clamp(30px, 6vw, 44px);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.prose section {
+  max-width: 720px;
+}
+
+.prose h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.prose p,
+.prose li {
+  color: var(--text2);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---- phones ---- */
+@media (max-width: 900px) {
+  .map-card {
+    flex-direction: column;
+  }
+
+  .county-panel,
+  .county-panel.camera-open {
+    flex: 1 1 auto;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    max-height: none;
+  }
+
+  .panel-split {
+    grid-template-columns: 1fr;
+  }
+
+  .panel-split > .panel-camera {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .map-side {
+    min-height: 420px;
+  }
+
+  .page {
+    padding: 44px 16px 32px;
+  }
+
+  .site-header nav {
+    padding: 12px 16px;
+    gap: 16px;
+  }
+}
+
+/* The overlay controls follow the map's own width: beside an open panel on a laptop the
+   map can be as narrow as a tablet, and the badge then ran into the zoom buttons. */
+.map-side {
+  container-type: inline-size;
+}
+
+@container (max-width: 760px) {
+  .map-overlay-top {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .map-overlay-top .segmented {
+    align-self: flex-start;
+  }
+
+  .search {
+    max-width: none;
+    flex: 0 0 auto;
+  }
+
+  .badge {
+    order: 3;
+    margin-left: 0;
+    align-self: flex-start;
+    white-space: nowrap;
+  }
+
+  .map-zoom {
+    top: auto;
+    bottom: 34px;
+    right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero p {
+    font-size: 16px;
+  }
+
+  .legend {
+    gap: 14px;
+    font-size: 13px;
+    justify-content: flex-start;
+  }
+}
+
+.sun-line {
+  display: block;
+  margin-top: -6px;
+  font-size: 13px;
+  color: var(--faint);
+  font-family: 'Geist Mono', ui-monospace, monospace;
+}
+
+/* Highway filter in the county panel: one chip per road, the picked one is the white pill. */
+.highway-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 2px 0 4px;
+}
+
+.highway-chips button {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 12px;
+  padding: 5px 9px;
+  border-radius: 999px;
+}
+
+.highway-chips .chip-count {
+  margin-left: 4px;
+  opacity: 0.6;
+}
